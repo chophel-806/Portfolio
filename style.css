@@ -312,3 +312,42 @@ footer{display:flex;justify-content:space-between;padding:25px 6vw;font-size:12p
     grid-template-columns: 1fr;
   }
 }
+/* ===== PROJECT CARD ENHANCEMENTS ===== */
+
+.project-card {
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 20px 45px rgba(0,0,0,.09);
+  border-color: #bdb9af;
+}
+
+.project-card h3 {
+  transition: transform .3s ease;
+}
+
+.project-card:hover h3 {
+  transform: translateX(4px);
+}
+
+.project-no {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid #11110f;
+  padding-bottom: 3px;
+  transition: opacity .2s ease, transform .2s ease;
+}
+
+.project-link:hover {
+  opacity: .6;
+  transform: translateX(5px);
+}
