@@ -420,3 +420,52 @@ footer{display:flex;justify-content:space-between;padding:25px 6vw;font-size:12p
     min-height: 160px;
   }
 }
+/* ===== ABOUT SECTION REDESIGN ===== */
+
+#about {
+  position: relative;
+  overflow: hidden;
+}
+
+#about::before {
+  content: "ABOUT";
+  position: absolute;
+  right: -35px;
+  top: 55px;
+  font-family: "Syne", sans-serif;
+  font-size: clamp(80px, 14vw, 190px);
+  font-weight: 800;
+  letter-spacing: -8px;
+  color: rgba(17,17,15,.035);
+  pointer-events: none;
+}
+
+#about .section-tag,
+#about h2,
+#about .about-copy {
+  position: relative;
+  z-index: 1;
+}
+
+#about h2 {
+  font-size: clamp(42px, 5.5vw, 75px);
+  letter-spacing: -3px;
+}
+
+#about .about-copy {
+  padding-top: 8px;
+}
+
+#about .about-copy p:first-child {
+  font-size: 21px;
+  color: #11110f;
+}
+
+#about .about-copy p {
+  margin-bottom: 25px;
+}
+
+#about .about-copy p:last-child {
+  padding-top: 25px;
+  border-top: 1px solid var(--line);
+}
