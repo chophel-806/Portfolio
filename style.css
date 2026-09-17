@@ -239,3 +239,76 @@ footer{display:flex;justify-content:space-between;padding:25px 6vw;font-size:12p
     grid-template-columns: 35px 1fr;
   }
 }
+/* ===== LEADERSHIP & CERTIFICATIONS REDESIGN ===== */
+
+.leadership-new {
+  background: #f5f3ee;
+  color: #11110f;
+  position: relative;
+}
+
+.leadership-new .section-tag {
+  color: #6c6a63;
+}
+
+.leadership-new .two-col {
+  gap: 35px;
+}
+
+.leadership-new .two-col > div {
+  background: #fffefa;
+  border: 1px solid #d9d6ce;
+  border-radius: 24px;
+  padding: 38px;
+  position: relative;
+  overflow: hidden;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.leadership-new .two-col > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(0,0,0,.08);
+}
+
+.leadership-new .two-col > div::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #d9ff3f;
+  right: -30px;
+  top: -30px;
+}
+
+.leadership-new h2 {
+  font-size: 42px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.leadership-new .clean-list {
+  position: relative;
+  z-index: 1;
+}
+
+.leadership-new .clean-list li {
+  color: #11110f;
+  border-top: 1px solid #d9d6ce;
+  padding: 18px 0;
+}
+
+.leadership-new .clean-list li:first-child {
+  border-top: none;
+}
+
+.leadership-new .clean-list span {
+  color: #8b887f;
+}
+
+@media(max-width:850px) {
+  .leadership-new .two-col {
+    grid-template-columns: 1fr;
+  }
+}
