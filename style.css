@@ -16,7 +16,7 @@ nav a:hover{opacity:.6}.nav-contact{border:1px solid var(--ink);padding:9px 15px
 .eyebrow,.section-tag{font-size:12px;letter-spacing:2px;font-weight:700;color:var(--muted)}
 h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.05;margin-top:0}
 h1{font-family:"Syne",sans-serif;font-size:clamp(64px,9vw,132px);letter-spacing:-6px;margin:20px 0}
-h1 span{font-weight:500;font-style:italic}
+h1 span{font-weight:500;font-style:normal}
 .hero-text{font-size:19px;max-width:650px;color:var(--muted)}
 .actions{display:flex;gap:12px;margin:35px 0 22px}.btn{padding:13px 21px;border-radius:100px;font-weight:700;border:1px solid var(--ink)}.primary{background:var(--ink);color:white}.secondary{background:transparent}
 .quick-links{display:flex;gap:12px;color:var(--muted);font-size:14px}.quick-links a{text-decoration:underline}
